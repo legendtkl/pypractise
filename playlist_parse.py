@@ -27,7 +27,7 @@ class Segment ():
 		self.duration = ''
 		self.uri = ''
 		self.has_discontinuity = False
-		self.discontinuity_sequence=-1
+		self.discontinuity_sequence = -1
 
 def parse_playlist(body):
 	playlist = Playlist()
