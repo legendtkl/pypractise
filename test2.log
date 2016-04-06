@@ -1,0 +1,88 @@
+transaction 2: {
+User-Agent: curl/7.44.0
+http://localhost:8002/?
+}
+transaction 3: {
+User-Agent: curl/7.44.0
+http://localhost:8002/?
+}
+transaction 4: {
+User-Agent: curl/7.44.0
+http://localhost:8002/?
+}
+transaction 5: {
+User-Agent: curl/7.44.0
+http://localhost:8002/?
+}
+transaction 6: {
+User-Agent: curl/7.44.0
+http://localhost:8002/?
+}
+transaction 2: {
+User-Agent: curl/7.44.0
+url:http://localhost:8002/?
+}
+transaction 3: {
+User-Agent: FreeWheel
+url:http://localhost:8002/?
+}
+transaction 2: {
+User-Agent: FreeWheel
+url:http://localhost:8002/?
+}
+{'transaction2': {'url': 'http://localhost:8002', 'User-Agent': 'FreeWheel'}}
+transaction 3: {
+User-Agent: FreeWheel
+url:http://localhost:8002/?
+}
+{'transaction2': {'url': 'http://localhost:8002', 'User-Agent': 'FreeWheel'}, 'transaction3': {'url': 'http://localhost:8002', 'User-Agent': 'FreeWheel'}}
+transaction 4: {
+User-Agent: FreeWheel
+url:http://localhost:8002/?
+}
+{'transaction4': {'url': 'http://localhost:8002', 'User-Agent': 'FreeWheel'}, 'transaction2': {'url': 'http://localhost:8002', 'User-Agent': 'FreeWheel'}, 'transaction3': {'url': 'http://localhost:8002', 'User-Agent': 'FreeWheel'}}
+transaction 1: {
+User-Agent: FreeWheel
+url:http://localhost:8002/?
+}
+{"transaction1": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}}
+transaction 2: {
+User-Agent: FreeWheel
+url:http://localhost:8002/?
+}
+{"transaction1": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}, "transaction2": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}}
+transaction 3: {
+User-Agent: FreeWheel
+url:http://localhost:8002/?
+}
+{"transaction1": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}, "transaction2": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}, "transaction3": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}}
+transaction 4: {
+User-Agent: FreeWheel
+url:http://localhost:8002/?
+}
+{"transaction4": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}, "transaction1": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}, "transaction2": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}, "transaction3": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}}
+transaction 5: {
+User-Agent: FreeWheel
+url:http://localhost:8002/?
+}
+{"transaction4": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}, "transaction5": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}, "transaction1": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}, "transaction2": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}, "transaction3": {"url": "http://localhost:8002", "User-Agent": "FreeWheel"}}
+transaction 1: {
+User-Agent: curl/7.44.0
+url:http://localhost:8002/?
+}
+{"transaction1": {"url": "http://localhost:8002", "User-Agent": "curl/7.44.0"}}
+transaction 1: {
+User-Agent: curl/7.44.0
+url:http://localhost:8002/?
+}
+{"transaction1": {"url": "http://localhost:8002", "User-Agent": "curl/7.44.0"}}
+transaction 1: {
+User-Agent: curl/7.44.0
+url:http://localhost:8002/?
+}
+{"transaction1": {"url": "http://localhost:8002", "User-Agent": "curl/7.44.0"}}
+transaction 1: {
+User-Agent: curl/7.44.0
+url:http://localhost:8002/?
+}
+{"transaction1": {"url": "http://localhost:8002", "User-Agent": "curl/7.44.0"}}

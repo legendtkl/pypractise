@@ -1,0 +1,17 @@
+url=helloworld
+http://localhost:8002/url=helloworld
+http://localhost:8002/?url=helloworld
+http://localhost:8002/?url=helloworld
+http://localhost:8002/?url=helloworld
+http://localhost:8002/?url=helloworld
+http://localhost:8002/?url=helloworld
+User-Agent: FreeWheel
+http://localhost:8002/?url=helloworld
+User-Agent: FreeWheel
+Cookie: a=b;c=d
+http://localhost:8002/?url=helloworld
+User-Agent: FreeWheel
+Cookie: a=b;c=d
+User-Agent: FreeWheel
+Cookie: a=b;c=d
+{u'x': u'y', u'z': u'x'}
